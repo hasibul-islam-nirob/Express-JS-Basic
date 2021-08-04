@@ -2,19 +2,10 @@ var expressJS = require('express');
 
 app = expressJS();
 
-app.get("/jsonData", function (request,response){
-    let jsonData = [
-        {
-            name:"Nirob",
-            city:"Dhaka",
-        },
-        {
-            name:"Hasib",
-            city:"Dhaka",
-        },
-    ]
+app.get("/downloadFile", function (request,response){
 
-    response.json(jsonData);
+    //response.download(' Your Path Location ');
+    response.download('./upload/nirob.png');
 })
 
 app.listen(3000,function (){
