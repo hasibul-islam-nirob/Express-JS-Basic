@@ -2,13 +2,12 @@ var expressJS = require('express');
 
 app = expressJS();
 
-app.get("/cookie", function (request,response){
+app.get("/cookieClear", function (request,response){
 
-    response.cookie('name','Nirob');
-    response.cookie('city','Dhaka');
-    response.cookie('age','23');
+    response.clearCookie('city');
+    response.clearCookie('age');
 
-    response.status(201).end("Cookie Set Success");
+    response.status(200).end("Cookie Clear Success");
 
 })
 
