@@ -2,10 +2,12 @@ var expressJS = require('express');
 
 app = expressJS();
 
-app.get("/downloadFile", function (request,response){
+app.get("/nirob", function (request,response){
+    response.redirect("/hasib");
+})
 
-    //response.download(' Your Path Location ');
-    response.download('./upload/nirob.png');
+app.get("/hasib", function (request,response){
+    response.send("Hasibul Pages");
 })
 
 app.listen(3000,function (){
