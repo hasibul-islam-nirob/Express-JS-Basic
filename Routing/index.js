@@ -8,8 +8,7 @@ app.get("/header", function (request,response){
     response.append('city','Dhaka');
     response.append('age','23');
 
-    response.send("This is Body");
-    response.status(201).end();
+    response.status(201).end("This is Body");
 })
 
 
