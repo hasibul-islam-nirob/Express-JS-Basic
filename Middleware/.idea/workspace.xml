@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="103d8c53-d959-4d72-bc89-4bfeab830cc3" name="Default Changelist" comment="" />
+    <list default="true" id="e6f7ab92-b42d-4f5c-92c5-47295ab46c02" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1wGZBGdXSpRpY5oRenB0YHTPqqH" />
+  <component name="ProjectId" id="1wIAt3GUrKJfyZ3WtOQtO5RgkRC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -21,20 +28,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="103d8c53-d959-4d72-bc89-4bfeab830cc3" name="Default Changelist" comment="" />
-      <created>1628086749181</created>
+      <changelist id="e6f7ab92-b42d-4f5c-92c5-47295ab46c02" name="Default Changelist" comment="" />
+      <created>1628135939862</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1628086749181</updated>
-      <workItem from="1628086750330" duration="1142000" />
-      <workItem from="1628117324167" duration="3883000" />
-      <workItem from="1628121639367" duration="9480000" />
+      <updated>1628135939862</updated>
+      <workItem from="1628135941057" duration="1279000" />
     </task>
     <servers />
   </component>
