@@ -4,7 +4,10 @@ app = expressJS();
 
 app.post("/", function (request,response){
 
-    response.end("Simple Post Request");
+    let fastName = request.query.fname;
+    let lastName = request.query.lname;
+
+    response.end(fastName+" "+lastName);
 
 })
 
