@@ -1,13 +1,16 @@
 var expressJS = require('express');
+var bodyParser = require('body-parser');
 
-app = expressJS();
+var app = expressJS();
+// parse application/json
+app.use(bodyParser.json());
 
 app.post("/", function (request,response){
 
-    let fastName = request.query.fname;
-    let lastName = request.query.lname;
+    let jsonData = request.body;
+    let jsonString = JSON.stringify(jsonData);
 
-    response.end(fastName+" "+lastName);
+    response.send(jsonString);
 
 })
 
