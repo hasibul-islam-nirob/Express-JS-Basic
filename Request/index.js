@@ -2,13 +2,9 @@ var expressJS = require('express');
 
 app = expressJS();
 
-app.get("/", function (request,response){
+app.post("/", function (request,response){
 
-    let fastname = request.header('fname');
-    let lastname = request.header('lname');
-    let UserAgent = request.header('User-Agent');
-
-    response.end(fastname +" "+lastname+" "+UserAgent);
+    response.end("Simple Post Request");
 
 })
 
