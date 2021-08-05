@@ -8,9 +8,12 @@ app.use(bodyParser.json());
 app.post("/", function (request,response){
 
     let jsonData = request.body;
-    let jsonString = JSON.stringify(jsonData);
+    //let jsonString = JSON.stringify(jsonData);
+    let name = jsonData['name'];
+    let city = jsonData['city'];
 
-    response.send(jsonString);
+    //response.send(jsonString);
+    response.send(name+"  "+city);
 
 })
 
