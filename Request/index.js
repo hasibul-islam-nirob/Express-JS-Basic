@@ -4,8 +4,10 @@ app = expressJS();
 
 app.get("/", function (request,response){
 
+    let fastname = request.query.fname;
+    let lastname = request.query.lname;
 
-    response.send("Simple Get Request");
+    response.end(fastname +" "+lastname);
 })
 
 
