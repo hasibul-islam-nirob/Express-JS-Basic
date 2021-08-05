@@ -5,7 +5,7 @@ app = expressJS();
 app.get("/", function (request,response){
 
 
-
+    response.send("Simple Get Request");
 })
 
 
