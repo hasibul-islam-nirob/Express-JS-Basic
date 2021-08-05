@@ -4,10 +4,11 @@ app = expressJS();
 
 app.get("/", function (request,response){
 
-    let fastname = request.query.fname;
-    let lastname = request.query.lname;
+    let fastname = request.header('fname');
+    let lastname = request.header('lname');
 
     response.end(fastname +" "+lastname);
+
 })
 
 
